@@ -2,7 +2,7 @@
     "compilerOptions": {
             "target": "esnext",
             "watch": true,
-            "outDir": "formTS",
+            "outDir": "TSForm",
             "lib": [
                     "DOM",
                     "ES2017"
@@ -10,6 +10,6 @@
             "outFile": "script.js"
     },
     "include": [
-            "ts/*"
+            "src/typescript/*"
     ]
 }
